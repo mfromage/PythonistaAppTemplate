@@ -4,7 +4,18 @@ This template allows you to package Python 2 scripts written in [Pythonista for 
 
 ## Using the Template
 
-First off, you obviously need to download Xcode [from the App Store](https://itunes.apple.com/en/app/xcode/id497799835?mt=12), if you haven't already.
+Requirements: Xcode ([download](https://itunes.apple.com/en/app/xcode/id497799835?mt=12))
+
+Steps:
+1. Clone this repository
+![github-repo](images/github.png)
+
+2. Click the project file, then it will open Xcode.
+<img src="images/project-file.png" width="300" />
+3. The template has main script by default, you can put your scripts there. The default script naming is main.py
+<img src="images/project-structure.png" width="300" />
+4. Choose which simulator you want to run, then run the play button to run the application.
+<img src="images/run-simulator.png" />
 
 This is enough to build your app for the iOS simulator, but to get it running on an actual device, you need at least an Apple ID (for running on your own device) or a paid Developer Program membership (for distributing through the App Store). The details of how to set up code signing and provisioning profiles are beyond the scope of this document, but they're not different from what you need to do to build any other iOS app, and you can find plenty of information about the process online.
 
